@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace; }
+
+body {
+  background-color: pink; }
+
+.container {
+  margin: 20px auto;
+  width: 80%; }
+  .container div:not(.card) {
+    padding: 2%;
+    display: inline-block;
+    width: 45%;
+    height: 500px;
+    background-color: lightgrey;
+    vertical-align: top; }
+
+form input, form textarea {
+  display: block;
+  margin: 5px 0; }
+
+.card {
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+  padding: 4%;
+  border: 2px solid black;
+  margin: 5px 0; }
+
+/*# sourceMappingURL=style.css.map */
